@@ -1,0 +1,509 @@
+/* -------------------------- ALL --------------------------  */
+*{  
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;}
+
+    @font-face {
+        font-family: myretro;
+        src: url(retrome.ttf.otf);}
+    @font-face{
+        font-family: mystar;
+        src: url(Starbornme.ttf.otf);}
+    @font-face{
+        font-family: myvintage;
+        src: url(Creamer\ .ttf);}
+    @font-face{
+        font-family: mylove;
+        src: url(Lovera.otf);}
+    @font-face{
+        font-family: mylosta;
+        src: url(fonts/Losta.ttf.ttf);}
+    @font-face{
+        font-family: myambros;
+        src: url(fonts/ambros.ttf.ttf)
+    }
+
+
+.hair2 a{
+    width:503px;height:630px;
+}
+
+/* HEADER */
+
+.webpage            {width: auto; background-color: white;}
+.webpage_title a    {color: #D2B46A;font-family: mylosta;font-size: 48px;font-style: normal;font-weight: 400;line-height: normal;position:absolute;left: 39px;top: 28px;}
+
+header              {height: 132px; background-color: #FFDBD0; flex-shrink: 0; position: sticky; top: 0; z-index: 2;}
+    .navi li        {display: inline;margin: 0 30px;border-radius: 16px;background: linear-gradient(180deg, #EFCE75 0%, #B3985F 100%);padding: 10px 40px;position: relative;top: 44px;font-size: 27px;font-weight: 400;}
+    li a            {color: white;}
+    .navi ul        {text-align: right;position: relative;font-family: mylosta;}
+
+
+
+
+
+/* -------------------------- HOME--------------------------  */
+
+
+
+
+
+.section_one            {width: 1440px;height: 855px;flex-shrink: 0;background-color: black;}
+
+
+.page1                          {height: 769px;flex-shrink: 0;background-image: url(Images/backdrop\ 12.jpg);background-size: cover;margin-left: 44px;margin-right: 45px;margin-top: 49px;}
+    .page1 h1                   {color: #9E7B5B;text-align: right;font-family: mylosta;font-size: 96px;font-style: normal;font-weight: 400;line-height: normal;position: absolute;right: 296px;top: 330px;}
+        .page1 p                {color: #9E7B5B;text-align: right;font-family: 'Times New Roman';font-size: 51px;font-style: normal;font-weight: 400;line-height: normal;position: absolute;right: 296px;top: 483px;}
+
+
+.order_now                      {border-radius: 16px;background: #FFDBD0;box-shadow: 0px 0px 27px 9px rgba(0, 0, 0, 0.25);width: 179px;height: 76px;flex-shrink: 0;position: absolute;right: 296px;top: 645px;}
+    .order_now p                {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+        .order_now a            {color: #9E7B5B;font-style: normal;}
+
+
+.services_page1 .order_now p    {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+    .services_page1 .order_now a{color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 4px;right: 2px;}
+
+
+.backdrop1          {height: 769px;display: block;}
+    .backdrop_box   {position: absolute;display: flex;justify-content: center;border-radius: 48px;background: rgba(202, 171, 140, 0.71);width: 80%;height: 648px;flex-shrink: 0;position: absolute;left: 172px;top: 241px;}
+
+
+
+.section_2                      {width: 100%;height: 440px;flex-shrink: 0;background: white;}
+    .section_2 h2               {color: #9E7B5B;font-family: Losta Masta;font-size: 72px;font-style: normal;font-weight: 400;line-height: normal;text-align: center;margin-top: 55px;}
+        .section_2 h3           {color: #9E7B5B;font-family: Times New Roman;font-size: 40px;font-style: normal;font-weight: 400;line-height: normal;text-align: center;position: relative;top: 0px;}
+            .section_2 p        {color: #000;text-align: center;font-family: Arial;font-size: 30px;font-style: normal;font-weight: 50;line-height: normal;margin-top: 20px;}
+
+
+
+.section_3          {width: 100%;height: 658px;flex-shrink: 0;background: #DDC3A6;margin-bottom: 56px;}
+
+
+
+.my_pics img                    {border-radius: 10px;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);height: 275px;position: relative;left: 0;right: 0;top: 220px;}
+    .my_pics                    {width:65%;height: 100%;left: 0;right: 0;margin:0 auto;}
+        .first_pic              {margin-right: 64px;}
+        .middle_pic             {margin-right: 64px;}
+        .end_pic                {margin-right: 0px;}
+
+.view_gallery               {border-radius: 16px;background: #FFF;box-shadow: 0px 0px 27px 9px rgba(0, 0, 0, 0.25);width: 336px;height: 76px;flex-shrink: 0;position: absolute;left: 0;right: 0;margin:0 auto;top:1515px;}
+    .view_gallery a         {color: #000;text-align: center;font-family: Arial;font-size: 32px;font-style: normal;font-weight: 400;line-height: normal;position: relative;display: flex;justify-content: center;top: 21px;}
+
+
+
+
+/* HOME PAGE TRANSITIONS */
+
+
+.gallery_container{display: flex;justify-content: center;align-items: center;position: relative;top: 250px;}
+
+.card_one                       {position: relative;height: 275px;width: 363.88px;overflow: hidden;border-radius: 30px;cursor: pointer;transition: 0.6s;margin-right: 50px;}
+.card_one:hover .overlay_one    {top:0;}
+    .picture_one                    {height: 100%;object-fit: cover;position: relative;bottom: 100px;left: 0px;top: 0px;transition: 0.7s;}
+        .overlay_one                    {position: absolute;top: 100%;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.7);color: red;transition: top 0.7s;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;padding: 20px;}
+        .overlay_one h4                 {font-size:60px;color: white;margin-bottom: 10px;position: relative;top: -20px;font-family: mylosta;}
+            .order_now_one                  {border-radius: 16px;background: #FFDBD0;width: 179px;height: 76px;flex-shrink: 0;position: relative;right: 0px;top: 0px;}
+            .order_now_one p                {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 0px;}
+            .order_now_one a                {color: #9E7B5B;font-style: normal;}
+
+
+  /* CARD 2 */
+
+.card_two                       {position: relative;height: 275px;width: 363.88px;overflow: hidden;border-radius: 30px;cursor: pointer;transition: 0.6s;margin-right: 50px;}
+.card_two:hover .overlay_two    {top:0;}
+    .picture_two                    {height: 100%;object-fit: cover;position: relative;bottom: 100px;left: 0px;top: 0px;transition: 0.7s;}
+        .overlay_two                    {position: absolute;top: 100%;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.7);color: red;transition: top 0.7s;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;padding: 20px;}
+        .overlay_two h4                 {font-size:60px;color: white;margin-bottom: 10px;position: relative;top: -20px;font-family: mylosta;}
+            .order_now_two                  {border-radius: 16px;background: #FFDBD0;width: 179px;height: 76px;flex-shrink: 0;position: relative;right: 0px;top: 0px;}
+            .order_now_two p                {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 0px;}
+            .order_now_two a                {color: #9E7B5B;font-style: normal;}
+
+
+  /* CARD 3 */
+
+  
+.card_three                     {position: relative;height: 275px;width: 363.88px;overflow: hidden;border-radius: 30px;cursor: pointer;transition: 0.6s;}
+.card_three:hover .overlay_three{top:0;}
+    .picture_three                  {height: 100%;object-fit: cover;position: relative;bottom: 100px;left: 0px;top: 0px;transition: 0.7s;}
+        .overlay_three                  {position: absolute;top: 100%;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.7);color: red;transition: top 0.7s;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;padding: 20px;}
+        .overlay_three h4               {font-size:60px;color: white;margin-bottom: 10px;position: relative;top: -20px;font-family: mylosta;}
+            .order_now_three                {border-radius: 16px;background: #FFDBD0;width: 179px;height: 76px;flex-shrink: 0;position: relative;right: 0px;top: 0px;}
+            .order_now_three p              {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 0px;}
+            .order_now_three a              {color: #9E7B5B;font-style: normal;}
+
+
+
+/* SOCIAL FOOTER */
+
+
+.section_4                      {width: 100%;height: 365px;flex-shrink: 0;background: #FFDBD0;}
+    .section_4 h2               {color: #000;text-align: center;font-family: Arial;font-size: 24px;font-weight: 400;position: relative;top: 29px;left: -.5%;}
+        .section_4 p            {color: #000;text-align: center;font-family: Arial;font-size: 16px;font-weight: 400;position: relative;top: 50px;left: -.5%;}
+
+.email                  {border-radius: 59px;background: rgba(255, 255, 255, 0.55);width: 453px;height: 72px;position: absolute;left: 0;right: 0;margin:0 auto;top: 2300px;}
+    .email p            {color: rgba(0, 0, 0, 0.47);font-family: arial;font-size: 24px;font-weight: 400;position: relative;right: 154px;top: 20px;}
+
+.submit                     {border-radius: 16px;background: #FFF;width: 178px;height: 58px;position: absolute;top: 2400px;left: 45%;}
+    .submit p               {color: #000;font-family: Arial;font-size: 24px;font-weight: 400;position: relative;top: 15px;}
+
+.dot                            {height: 67px;width: 67px;border-radius: 50%;display: flex;flex-direction: column;margin-bottom: 17px;background-color: #FFF;position: relative;left: 32px;}
+    .dot img                    {width: 46px;height: 46px;display: flex;flex-direction: column;margin-bottom: 17px;position: relative;left: 11px;top: -40px;}
+        .dot .facebook          {height: 67px;width: 67px;position: relative;left: 0px;top: -50px;}
+            .fresha_link        {position: relative;left: 0px;bottom: 0px;}
+
+
+
+
+
+/* -------------------------- About--------------------------  */
+
+
+
+
+   
+.about_section_2                    {width: 100%;height: 440px;flex-shrink: 0;background: white;}
+    .about_section_2 h2             {color: #9E7B5B;font-family: Losta Masta;font-size: 72px;font-style: normal;font-weight: 400;line-height: normal;text-align: center;margin-top: 55px;}
+        .about_section_2 h3         {color: #9E7B5B;font-family: Times New Roman;font-size: 40px;font-style: normal;font-weight: 400;line-height: normal;text-align: center;position: relative;top: 10px;}
+            .about_section_2 p      {color: #000;text-align: center;font-family: Arial;font-size: 30px;font-style: normal;font-weight: 50;line-height: normal;margin-top: 50px;}
+
+
+ /* section 3 */
+
+
+.about_section_3                {background: transparent;width: auto;height: 1747px;}
+    .about_images img           {border-radius: 10px;background: lightgray 50% / cover no-repeat;box-shadow: 0px 4px 21px 8px rgba(0, 0, 0, 0.25);flex-shrink: 1;border: 0;height: auto;max-width: 100%;vertical-align: middle;}
+
+        .hair2                  {position: absolute;left: 153px;top: 1500px;box-sizing: border-box;max-width: 100%;;height: auto;background: lightgray 50% / cover no-repeat;border: 1px solid white;box-shadow: 0px 4px 21px 8px rgba(0, 0, 0, 0.25);backdrop-filter: blur(6px);border-radius: 10px;cursor: pointer;transition: all 0.5s;vertical-align: middle;justify-content: center;user-select: none;flex-shrink: 1;}
+          .hair2:hover          {transform: scale(0.95) rotateZ(1.7deg);}
+
+        .eyelashes2             {position: absolute;left: 737px;top: 1500px;box-sizing: border-box;max-width: 100%;;height: auto;background: lightgray 50% / cover no-repeat;border: 1px solid white;box-shadow: 0px 4px 21px 8px rgba(0, 0, 0, 0.25);backdrop-filter: blur(6px);border-radius: 10px;cursor: pointer;transition: all 0.5s;vertical-align: middle;justify-content: center;user-select: none;flex-shrink: 1;}
+            .eyelashes2:hover   {transform: scale(0.95) rotateZ(1.7deg);}
+
+        .hair3                  {position: absolute;left: 1270px;top: 2277px;box-sizing: border-box;max-width: 100%;;height: auto;background: lightgray 50% / cover no-repeat;border: 1px solid white;box-shadow: 0px 4px 21px 8px rgba(0, 0, 0, 0.25);backdrop-filter: blur(6px);border-radius: 10px;cursor: pointer;transition: all 0.5s;vertical-align: middle;justify-content: center;user-select: none;flex-shrink: 1;}
+            .hair3:hover        {transform: scale(0.95) rotateZ(1.7deg);}
+
+        .nails3                 {position: absolute;left: 153px;top: 2211px;width: 503px;box-sizing: border-box;max-width: 100%;height: auto;background: lightgray 50% / cover no-repeat;border: 1px solid white;box-shadow: 0px 4px 21px 8px rgba(0, 0, 0, 0.25);backdrop-filter: blur(6px);border-radius: 10px;cursor: pointer;transition: all 0.5s;vertical-align: middle;justify-content: center;user-select: none;flex-shrink: 1;}
+            .nails3:hover       {transform: scale(0.95) rotateZ(1.7deg);}
+
+        .nails4                 {position: absolute;left: 737px;top: 2277px;box-sizing: border-box;max-width: 100%;;height: auto;background: lightgray 50% / cover no-repeat;border: 1px solid white;box-shadow: 0px 4px 21px 8px rgba(0, 0, 0, 0.25);backdrop-filter: blur(6px);border-radius: 10px;cursor: pointer;transition: all 0.5s;vertical-align: middle;justify-content: center;user-select: none;flex-shrink: 1;}
+            .nails4:hover       {transform: scale(0.95) rotateZ(1.7deg);}
+
+
+.load               {width: 164px;height: 50px;flex-shrink: 0;border-radius: 16px;background: #F4CBBE;position: relative;left: 869px;top: 1450px;}
+.load h3            {color: #000;font-family: Arial;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;position: relative;text-align: center;top: 13px;}
+
+
+ /* page 4 */
+
+/* EMPLOYEES */
+
+.about_section_4                        {background: transparent;height: 800px;}
+    .about_section_4 h2                 {color: #9E7B5B;font-family: mylosta;font-size: 62px;font-style: normal;font-weight: 400;line-height: normal;position: relative;text-align: center;top: 34px;}
+        .about_section_4 p              {color: #000;text-align: center;font-family: Arial;font-size: 30px;font-style: normal;font-weight: 400;line-height: normal;position: relative;text-align: center;top: 60px;}
+            .about_section_4 h3         {color: #9E7B5B;font-family: mylosta;font-size: 48px;font-style: normal;font-weight: 400;line-height: normal;position: relative;display: inline;margin-right: 195px;right: 268px;top: 180px;}
+                .about_section_4 h4     {color: #000;font-family: Arial;font-size: 28px;font-style: normal;font-weight: 400;line-height: normal;margin-right: 10px;position: absolute;padding:10px;}
+
+
+    .profile_info   {display: flex;flex: inline;position: relative;top: 150px;right: -605px;width: 800px;}
+    .profile_bio   {display: flex;flex: inline;position: relative;top: 150px;right: -587px;width: 800px;}
+
+
+.amy1                               {text-align: center;left: 615px;top: 3763px;}
+    .about_amy                      {width: 178px;height: 141px;position: relative;margin-right: 100px;}
+        .about_amy h5               {color: #9E7B5B;font-family: mylosta;font-size: 48px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;}
+            .about_amy p            {color: #000;text-align: center;font-family: arial;font-size: 28px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;position: relative;top: 2px;}
+
+.han1                               {text-align: center;left: 615px;top: 3763px;}
+    .about_han                      {width: 178px;height: 141px;position: relative;margin-right: 100px;}
+        .about_han h5               {color: #9E7B5B;font-family: mylosta;font-size: 48px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;}
+            .about_han p            {color: #000;text-align: center;font-family: arial;font-size: 28px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;position: relative;top: 2px;}
+
+
+.flip-card                                      {position: relative;display: flex;flex: inline;;margin-right: 104px;background-color: transparent;width: 190px;height: 254px;perspective: 1000px;}
+    .flip-card-inner                            {position: relative;width: 100%;height: 100%;text-align: center;transition: transform 0.8s;transform-style: preserve-3d;}
+    .flip-card:hover .flip-card-inner           {transform: rotateY(180deg);}
+        .flip-card-front, .flip-card-back       {position: absolute;display: flex;flex-direction: column;justify-content: center;width: 100%;height: 100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+            .flip-card-back                     {transform: rotateY(180deg);}
+
+
+
+.lien1                              {text-align: center;right: 580px;top: 3763px;}
+    .about_lien                     {width: 178px;height: 141px;position: relative;}
+        .about_lien h5              {color: #9E7B5B;font-family: mylosta;font-size: 48px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;}
+            .about_lien p           {color: #000;text-align: center;font-family: arial;font-size: 28px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;position: relative;top: 2px;}
+
+
+
+.rose   {position: absolute;top: 2962px;left: 0px;width: 500px;}
+.poppy  {position: absolute;top: 2936px;right: 0px;object-fit: cover;width: 500px;}
+
+
+
+
+
+
+/* -------------------------- Services--------------------------  */
+
+
+
+
+
+
+.services_page1                     {background-image: url(images/backdrop3.jpg);}
+    .services_page1                 {height: 769px;flex-shrink: 0;background-image: url(Images/backdrop3.jpg);background-size: cover;margin-left: 44px;margin-right: 45px;margin-top: 49px;}
+        .services_page1 h1          {color: #9E7B5B;text-align: right;font-family: mylosta;font-size: 96px;font-style: normal;font-weight: 400;line-height: normal;position: absolute;right: 296px;top: 330px;}
+            .services_page1 p       {color: #9E7B5B;text-align: right;font-family: 'Times New Roman';font-size: 51px;font-style: normal;font-weight: 400;line-height: normal;position: absolute;right: 296px;top: 483px;}
+            .services_page1 a       {color: #9E7B5B;text-align: right;font-family: 'Times New Roman';font-size: 51px;font-style: normal;font-weight: 400;line-height: normal;position: absolute;right: 296px;top: 483px;}
+
+            
+            .backdrop1              {height: 769px;display: block;}
+
+h3                      {color: #9E7B5B;text-align: center;font-family: mylosta;font-size: 62px;font-style: normal;font-weight: 400;line-height: normal;position: relative;bottom: 123px;}
+.title_other            {position: relative;bottom: 240px; }
+
+
+/* NAILS */
+
+
+.services_nails                     {height: 1964px;flex-shrink: 0;width: auto;}
+    .services_nails img             {position: absolute;left: 98px;top: -75px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+        .services_info              {width: auto;height: 365px;flex-shrink: 0; background: #F4CBBE;position: relative;top: 231px;}
+
+                .services_order_now                 {position: absolute;left: 670px;top: 253px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .services_order_now p           {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .services_order_now a       {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.order_boxes                        {width: auto;height: 1383px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+
+    .order_boxes .menu_one      {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;left: 0px;top: 0px;}
+    .menu_two                   {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;right: 0px;top: 0px;}
+    .menu_three                 {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;left: 0px;top: 691px;}
+    .menu_four                  {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;right: 0px;top: 691px;}
+
+
+/* WOMENS HAIR */
+
+
+.womens_hair                        {width: auto;height: 2000px;}
+    .womens_hair img                {position: absolute;right: 98px;top: -76px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+        .hair_info                  {width: auto;height: 365px;flex-shrink: 0; background: #F4CBBE;position: relative;top: 231px;}
+
+                .hair_order_now                     {position: absolute;left: 65px;top: 240px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .hair_order_now p               {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .hair_order_now a           {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.hair_order_boxes                   {width: auto;height: 1383px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+    
+    .menu_five                  {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;left: 0px;top: 0px;}
+    .menu_six                   {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;right: 0px;top: 0px;}
+    .menu_seven                 {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;left: 0px;top: 691px;}
+    .menu_eight                 {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;right: 0px;top: 691px;}
+
+
+
+/* MENS AND KIDS */
+
+
+
+.men_kids                           {height: 1500px;width: auto;}
+    .men_info                       {width: auto;height: 365px;flex-shrink: 0;background: #F4CBBE;position: relative;top: 273px;}
+        .men_info img               {position: absolute;left: 98px;top: -110px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+
+                .men_order_now                      {position: absolute;left: 670px;top: 222px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .men_order_now p                {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .men_order_now a            {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.men_order_boxes                {width: auto;height: 692px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+
+.menu_nine              {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;left: 0px;top: 0px;}
+.menu_ten               {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;right: 0px;top: 0px;}
+
+
+
+/* FACE */
+
+
+
+.Face                               {height: 1500px;width: auto;}
+    .face_info                      {width: auto;height: 365px;flex-shrink: 0;background: #F4CBBE;position: relative;top: 273px;}
+        .face_info img              {position: absolute;right: 98px;top: -110px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+
+                .face_order_now                     {position: absolute;left: 65px;top: 240px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .face_order_now p               {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .face_order_now a           {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.face_order_boxes               {width: auto;height: 692px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+
+.menu_eleven            {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;left: 0px;top: 0px;}
+.menu_twelve            {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;right: 0px;top: 0px;}
+
+
+
+/* BODY */
+
+
+
+.body                               {height: 1500px;width: auto;}
+    .body_info                      {width: auto;height: 365px;flex-shrink: 0;background: #F4CBBE;position: relative;top: 273px;}
+        .body_info img              {position: absolute;left: 98px;top: -110px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+
+                .body_order_now                     {position: absolute;left: 670px;top: 240px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .body_order_now p               {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .body_order_now a           {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.body_order_boxes               {width: auto;height: 692px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+
+.menu_13                {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;left: 0px;top: 0px;}
+.menu_14                {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;right: 0px;top: 0px;}
+
+
+
+/* BEAUTY */
+
+
+
+.beauty                             {height: 1500px;width: auto;}
+    .beauty_info                    {width: auto;height: 365px;flex-shrink: 0;background: #F4CBBE;position: relative;top: 273px;}
+        .beauty_info img            {position: absolute;right: 98px;top: -110px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+
+                .beauty_order_now                   {position: absolute;left: 62px;top: 241px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .beauty_order_now p             {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .beauty_order_now a         {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.beauty_order_boxes             {width: auto;height: 692px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+
+.menu_15                {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;left: 0px;top: 0px;}
+.menu_16                {min-width: 952px;max-width: auto;height: 693px;flex-shrink: 0;background: #FFF2E6;position: absolute;right: 0px;top: 0px;}
+
+
+
+/* EVENT */
+
+
+
+.event                              {height: 1450px;width: auto;}
+    .event_info                     {width: auto;height: 365px;flex-shrink: 0;background: #F4CBBE;position: relative;top: 273px;}
+        .event_info img             {position: absolute;left: 98px;top: -76px;border-radius: 10px;background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: -1px 0px 16px 6px rgba(146, 128, 106, 0.65);z-index: 1;}
+
+                .event_order_now                    {position: absolute;left: 670px;top: 225px;border-radius: 16px;background: #FFF;width: 179px;height: 58px;flex-shrink: 0;}
+                    .event_order_now p              {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 17px;right: 25px;}
+                        .event_order_now a          {color: #9E7B5B;font-family: mylosta;font-size: 27px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: -6px;right: -48px;}
+
+.event_order_boxes{width: auto;height: 692px;flex-shrink: 0;background: black;position: relative;top: 231px;}
+
+.menu_17{width: 100%;height: 693px;flex-shrink: 0;background: #FFE9D4;position: absolute;left: 0px;top: 0px;}
+  
+
+
+.left/* paragraph */            {color: #000;font-family: Arial;font-size: 32px;font-style: normal;font-weight: 400;line-height: normal;position: relative;left: 672px;bottom: 50px;width: 1200px;}
+.left_wax/* paragraph */        {color: #000;font-family: Arial;font-size: 32px;font-style: normal;font-weight: 400;line-height: normal;position: relative;left: 672px;bottom: 161px;width: 1100px;}
+.right/* paragraph */           {color: #000;font-family: Arial;font-size: 32px;font-style: normal;font-weight: 400;line-height: normal;position: relative;left: 66px;bottom: 136px;width: 1148px;height: 345px;flex-shrink: 0;}
+.right_hair/* paragraph */      {color: #000;font-family: Arial;font-size: 32px;font-style: normal;font-weight: 400;line-height: normal;position: relative;left: 66px;bottom: 50px;width: 1000px;height: 345px;flex-shrink: 0;}
+
+h4{color: #000;text-align: center;font-family: Times New Roman;font-size: 40px;font-style: normal;font-weight: 400;line-height: normal;position: relative;left: 0px;right: 0px;margin: 0 auto;top: 125px;}
+
+.descrip_1{color: #000;font-family: Arial;text-align: left;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: 170px;}
+
+
+        .prices_1           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -195px;}
+        .prices_2           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -270px;}
+        .prices_3           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -65px;}
+        .prices_4           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -232px;}
+        .prices_5           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -232px;}
+        .prices_6           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -150px;}
+        .prices_7           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -28px;}
+        .prices_8           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -230px;}
+        .prices_9           {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -230px;}
+        .prices_10          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: 15px;}
+        .prices_11          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -112px;}
+        .prices_12          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -232px;}
+        .prices_13          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -230px;}
+        .prices_14          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -230px;}
+        .prices_15          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -230px;}
+        .prices_16          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: 10px;}
+        .prices_17          {color: #000;font-family: Arial;text-align: right;font-size: 20px;font-style: normal;font-weight: 400;line-height: normal;width: 433px;line-height: 40px;left: 0px;right: 0px;margin: 0 auto;position: relative;top: -270px;}
+
+
+.lilly_pic{position:absolute;z-index: 2;left:0;top:11500px;}
+.ring_pic{position:absolute;z-index: 2;right:0;top:11600px;}
+
+
+.return_button      {width: 90px;height: 90px;border-radius: 20px;background: linear-gradient(180deg, #EFCE75 0%, #B3985F 100%);position: relative;float: right;top: 810px;}
+.return_button a    {color: #FFF;font-family: Arial;font-size: 108px;font-style: normal;font-weight: 400;line-height: normal;display: flex;justify-content: center;}
+
+
+
+
+
+/* -------------------------- Contact--------------------------  */
+
+
+
+
+
+.contact_section_1  {width: auto;height: 1971px;}
+.teamheader         {position: relative;width: auto;top: 47px;left: 7%;right: 0;margin: 0 auto;}
+
+    .text_box                   {width: 1208px;height: 359px;flex-shrink: 0;border-radius: 48px;background: rgba(255, 255, 255, 0.71);position: absolute;top: 558px;left: 347px;}
+    .text_box h2                {color: #9E7B5B;font-family: mylosta;font-size: 128px;font-style: normal;font-weight: 400;line-height: normal;position: relative;top: 88px;left: 288px;}
+
+.contact_details            {width: 782px; height: 810px; flex-shrink: 0;background: #B88A80;position: absolute;top: 1151px;right: 0px;}
+.contact_details h2         {color: #FFF;font-family: mylosta;font-size: 62px;font-style: normal;font-weight: 400;line-height: normal;position: relative;padding-left: 90px;top: 45px;}
+.contact_details img        {position: relative;top: 80px;left: 85px;margin-bottom: 55px;display: flex;flex-direction: column;}
+.contact_details p          {color: #FFF;text-align: left;font-family: Arial;font-size: 33px;font-style: normal;font-weight: 400;line-height: normal;position: relative;bottom: 466px;padding-left: 220px;margin-bottom: 90px;display: flex;flex-direction: column;}
+
+.map                        {background: url(<path-to-image>), lightgray 50% / cover no-repeat;box-shadow: 15px -14px 15px 0px #B88A80;position: absolute;top: 1152px;left: 111px;}
+
+
+.contact_section_2              {width: 100%;height: 365px;flex-shrink: 0;background: #FFDBD0;}
+.contact_section_2 h2           {color: #000;text-align: center;font-family: Arial;font-size: 24px;font-weight: 400;position: relative;left: -.5%;top: 29px;}
+.contact_section_2 p            {color: #000;text-align: center;font-family: Arial;font-size: 16px;font-weight: 400;position: relative;top: 50px;left: -.5%;}
+
+/* SUBSCRIBE INPUT BUTTON */
+
+.email_sub                                      {display: flex;align-items: center;justify-content: space-between;text-align: center;}
+    .email__input                               {font-family: inherit;font-size: inherit;background-color: #f4f2f2;border: none;color: #646464;padding: 0.9rem 1rem;border-radius: 30px;width: 12em;transition: all ease-in-out .5s;margin-right: -2rem;position: relative;left:0;right:0;margin:0 auto;top: 85px;}
+    .email__input:hover, .email__input:focus    {box-shadow: 0 0 1em #00000013;}
+    .email__input:focus                         {outline: none;background-color: #f0eeee;}
+    .email__input::-webkit-input-placeholder    {font-weight: 100;font-family: arial;color: #ccc;}
+    .email__input:focus + .email__button        {background-color: #f0eeee;}
+    .email__button                              {border: none;background-color: #f4f2f2;margin-top: .1em;}
+    .email__button:hover                        {cursor: pointer;}
+    .email__icon                                {height: 1.3em;width: 1.3em;fill: #b4b4b4;}
+
+
+.submit1                {border-radius: 16px;background: #FFF;width: 178px;height: 58px;position: absolute;top: 2340px;left: 854px;}
+.submit1 p              {color: #000;font-family: Arial;font-size: 24px;font-weight: 400;position: relative;top: 15px;}
+
+/* SOCIALS */
+
+.dot1               {height: 67px;width: 67px;border-radius: 50%;display: flex;flex-direction: column;margin-bottom: 17px;background-color: #FFF;position: relative;left: 32px;}
+.dot1 img           {width: 46px;height: 46px;display: flex;flex-direction: column;margin-bottom: 17px;position: relative;left: 11px;top: 11px;}
+.dot1 .facebook1    {height: 67px;width: 67px;position: relative;left: 0px;top: 0px;}
+
+
+
+
+
+/* --------------------------- footer --------------------------*/
+
+
+
+
+footer                  {background: #FFF2E6;;height: 137px;padding-left: 32px;padding-right: 32px;}
+    footer h2           {margin-right: 10px;color: black;font-family: Arial;font-size: 20px;font-size: 20px;font-weight: 400;position: relative;top: 58px;left: 32px;}
+        footer p        {color: #000;font-family: Arial;font-size: 20px;font-style: normal;font-weight: 400;position:relative;line-height: normal;display: inline;  margin-right: 33px;top: 36px;float: right;}
+            footer a    {color: black;font-style: normal;}
+
+/* PAYMENTS */
+
+.card{width: 63px;height: 42px;background: #FFF;display: inline-block;   vertical-align: top;position: relative;top: 25px;left: 176px;margin-right: 10px;}
+    .afterpay{width: 39px;height: 39px;position: relative;text-align: center;left: 13px;}
+    .visa{width: 48px;height: 48px;position: relative;text-align: center;left: 7px;bottom: 3px;}
+    .mastercard{width: 63px;height: 42px;position: relative;text-align: center;}
+    .applepay{width: 45px;height: 19px;position: relative;text-align: center;left: 8px;top: 13px;}
+
